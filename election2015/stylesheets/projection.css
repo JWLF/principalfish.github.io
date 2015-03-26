@@ -19,11 +19,6 @@
 	border: 1px solid black;
 }
 
-#totals {
-	height: 420px;
-	border-bottom : 1px solid black;
-}
-
 #bottomright {
 	padding-left: 5px;
 	color : black;
@@ -57,13 +52,14 @@
 #userinput {
 	position: absolute;
 	z-index: 1;
-	margin-left: 510px;
+	margin-left: 480px;
 	margin-top: 5px;
 	width: 180px;
 	height: 360px;
-	background: #99CCFF;
-
-	border: 1px solid black;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid rgba(171, 171, 171, 0.85);
+    border-radius: 3px;
 }
 
 #userinput tr{

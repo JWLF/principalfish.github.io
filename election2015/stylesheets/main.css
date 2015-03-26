@@ -1,17 +1,20 @@
 #wrapper {
-	width: 1480px;
+
 
 }
 /* far left */
 
 #top {
-	width: 1452px;
+
 }
 
 
 #farleft {
-		border-right: 0;
-		height: 900px;
+    color: #fff;
+    border-right: 0;
+    width: 200px;
+    height: 900px;
+    background-color: #293b51;
 
 }
 
@@ -26,12 +29,13 @@
 
 
 .projections {
-	height: 60px;
 	width: 100%;
 }
 
 
 .projections h3 {
+    height: 30px;
+    line-height: 30px;
 	text-align: center;
 	margin-right: -5px;
 	margin-left: -5px;
@@ -42,7 +46,6 @@
 
 .projections a {
 	text-decoration: none;
-	color: #fff;
 }
 
 .projections a:hover {
@@ -55,8 +58,8 @@
 
 
 .currentpage {
-	background: blue;
-	color: #FFFF00;
+	background: #243549;
+	color: #FFF;
 	margin: 2px;
 }
 
@@ -66,8 +69,12 @@
 	font-size: 0.75em;
 }
 
+.notactive a {
+    color: rgba(255, 255, 255, 0.61);
+}
+
 #otherlinks {
-	border-top: 1px solid black;
+	border-top: 1px solid rgba(0, 0, 0, 0.23);
 }
 
 #searchforseat h2{
@@ -91,6 +98,16 @@
 
 #filters button {
 	float: right;
+    height: 30px;
+    line-height: 30px;
+    background-color: #1b2336;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius:2px;
+    color: #fff;
+    text-decoration: none;
+    cursor: poiner;
+    border:none;
 }
 
 #filters select {
@@ -113,8 +130,17 @@
 }
 
 #filteredlist button{
+    height: 40px;
+    line-height: 40px;
 	width: 100%;
-
+    background-color: #1b2336;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius:2px;
+    color: #fff;
+    text-decoration: none;
+    cursor: poiner;
+    border:none;
 }
 
 #filteredlisttable{
@@ -142,9 +168,6 @@
 	float: left;
 	width: 700px;
 	height: 900px;
-	border-bottom: 1px solid black;
-	border-right: 1px solid black;
-	border-left: 1px solid black;
 	display: block;
 	overflow: hidden;
 	/*position: relative;*/
@@ -171,10 +194,6 @@
 	height: 900px;
 	float: left;
 	width: 600px;
-	border-right: 1px solid black;
-	border-bottom: 1px solid black;
-	background-color: #99CCFF;
-	border-radius: 0 0 10px 0;
 }
 
 #topright {
@@ -188,17 +207,26 @@
 #information 	{
 	width: 100%;
 	height: 202px;
-	border-bottom: 1px solid black;
 	float: left;
-	border-top: 1px solid black;
+}
+
+#summary {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rgba(171, 171, 171, 0.85);
+    border-radius: 3px;
 }
 
 #information-header{
 	float: left;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 10px;
 }
 
 #information-bielection{
 	float: right;
+    margin-bottom: 8px;
 }
 
 #information table {
@@ -221,8 +249,12 @@
 /* pie chart and votes */
 
 #charts {
-	height: 250px;
-	border-bottom: 1px solid black;
+	height: 270px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rgba(171, 171, 171, 0.85);
+    border-radius: 3px;
 }
 
 #information-pie {
@@ -243,7 +275,12 @@
 /* country totals*/
 
 #totals {
-	height: auto;
+    height: auto;
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid rgba(171, 171, 171, 0.85);
+    border-radius: 3px;
 }
 
 
@@ -252,7 +289,7 @@
 }
 
 #totals table{
-	width: 600px;
+	width: 100%;
 }
 
 #totalstable th{
@@ -287,7 +324,7 @@ svg .boundaries {
 }
 
  .background {
-  fill: #99CCFF ;
+  fill: none;
   pointer-events: all;
 }
 

@@ -289,8 +289,8 @@ var oldclass = null;
 
 function seatinfo(d){
 
-	$("#information").removeClass(oldclass);
-	$("#information").addClass(seatData[d.properties.name]["party"])
+	$("#summary").removeClass(oldclass);
+	$("#summary").addClass(seatData[d.properties.name]["party"])
 	$("#information-seatname").html("<td>Seat</td><td style=\"width:360px\"> " + d.properties.name +
 	"</td><td id=\"rightcolumninfotable\">" + regionlist[seatData[d.properties.name]["area"]] + "</td>");
 	$("#information-party").html("<td>Party</td><td>" + partylist[seatData[d.properties.name]["party"]] + "</td>");
